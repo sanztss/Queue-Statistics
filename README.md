@@ -74,3 +74,31 @@
             "startIndex": 0,
             "totalGames": 417
         }
+
+    https://br1.api.riotgames.com/lol/match/v3/matches/1099992815
+    
+ 
+        {
+            "participantIdentities": [
+                {
+                    "player": {
+                        "summonerName": "Qck",
+                    },
+                    "participantId": 5
+                },
+                {
+                    "player": {
+                        "summonerName": "xNegs",
+                    },
+                    "participantId": 10
+                }
+            ],
+            "teams": [
+                {
+                    "win": "Win",
+                },
+                {
+                    "win": "Fail",
+                }
+            ],
+        }
