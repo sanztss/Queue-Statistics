@@ -27,4 +27,50 @@
         }
  3. **Recuper informações gerais de partidas ranked's do usuário:**
     
+    https://br.api.riotgames.com/api/lol/BR/v2.5/league/by-summoner/4351880/entry
     
+ 
+        {
+            "4351880": [
+                {
+                    "tier": "GOLD",
+                    "queue": "RANKED_SOLO_5x5",
+                    "name": "Nunu's Oracles",
+                    "entries": [
+                        {
+                            "isFreshBlood": false,
+                            "division": "III",
+                            "isVeteran": false,
+                            "wins": 47,
+                            "losses": 48,
+                            "playerOrTeamId": "4351880",
+                            "playerOrTeamName": "Qck",
+                            "isInactive": false,
+                            "isHotStreak": false,
+                            "leaguePoints": 23
+                        }
+                    ]
+                }
+            ]
+        }
+        
+    https://br1.api.riotgames.com/lol/match/v3/matchlists/by-account/202396549
+    
+ 
+        {
+            "matches": [
+                {
+                    "lane": "TOP",
+                    "gameId": 1099992815,
+                    "champion": 114,
+                    "platformId": "BR1",
+                    "timestamp": 1496195642531,
+                    "queue": 420,
+                    "role": "SOLO",
+                    "season": 8
+                },
+            ],
+            "endIndex": 417,
+            "startIndex": 0,
+            "totalGames": 417
+        }
